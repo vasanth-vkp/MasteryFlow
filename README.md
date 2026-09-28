@@ -1,3 +1,20 @@
+#frontend
+cd d:\Downloads\hackthon\frontend
+
+# Start Vite React development server
+npm run dev
+-----------------------------------------------------------------------------
+#backend
+cd d:\Downloads\hackthon\backend
+
+# Seed the initial Algebra DAG & demo learners (if not already seeded)
+py seed_data.py
+
+# Start the FastAPI backend
+py -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+---------------------------------------------------------------------------------
+
 # MasteryFlow
 ### Explainable Adaptive Learning & Intervention Engine
 **YUVA Megathon 2026 — EduGenAI Track (Intelligent Educational Systems)**
